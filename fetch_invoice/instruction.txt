@@ -1,0 +1,24 @@
+git add . 新增為上傳過的檔案
+git status  查看目前狀態
+git commit -m "test1" //commit ，引號內為敘述
+git pull --rebase origin fetch_basic_data  //pull原先檔案
+git push origin fetch_basic_data  //push 到gitlab
+
+venv  建立虛擬環境
+
+# Windows / Mac / Linux 通用指令
+python -m venv venv
+
+venv\Scripts\activate  啟動虛擬環境 (Activate)
+
+啟動成功後，您的指令列最前方會出現括號，顯示虛擬環境名稱，例如： (venv) C:\Users\YourName\Project>
+
+可以執行 pip install -r requirements.txt 來安裝專案所需的套件
+
+刪除虛擬環境 (Remove)
+# Windows / Mac / Linux 通用指令
+deactivate
+
+python -m pip freeze > requirements.txt  // 列出目前環境所有已安裝的套件與版本，將上述的結果「寫入」到檔案中
+
+

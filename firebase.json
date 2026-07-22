@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "food-expiry-helper",
+          "appId": "1:544818648349:android:c543aedc1d953f1013bdf4",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "food-expiry-helper",
+          "configurations": {
+            "android": "1:544818648349:android:c543aedc1d953f1013bdf4",
+            "ios": "1:544818648349:ios:381afb07129d65ba13bdf4",
+            "macos": "1:544818648349:ios:381afb07129d65ba13bdf4",
+            "web": "1:544818648349:web:64dfe630c491b56513bdf4",
+            "windows": "1:544818648349:web:4de1ba63b19db17e13bdf4"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "544818648349",
+    "firebase_url": "https://food-expiry-helper-default-rtdb.firebaseio.com",
+    "project_id": "food-expiry-helper",
+    "storage_bucket": "food-expiry-helper.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544818648349:android:c543aedc1d953f1013bdf4",
+        "android_client_info": {
+          "package_name": "com.example.food_expiry_helper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCegeqnaAqoCJrN6xiyRIAa87TF0xzHR-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
